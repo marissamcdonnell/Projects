@@ -1,4 +1,40 @@
-#id {
-    color: red;
-    font-size: 32px;
+html {
+    background-color: #E5FFFD;
+}
+
+.name {
+    font-family: Asul, sans-serif;
+    padding-left: 23px;
+    margin: auto;
+    display: inline-block;
+    color: #0C3330;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.menu {
+    right: 0;
+    display: inline-block;
+    margin: auto;
+    position: absolute;
+}
+
+.button-nav {
+    background-image: url("../images/Hamburgericon.png");
+    background-color: transparent;
+    background-size: cover;
+    cursor: pointer;
+    border: none;
+    width: 50px;
+    height: 50px;
+    margin: 15px 28px 0 0;
+}
+
+.button-nav:hover {
+    width: 60px;
+    height: 60px;
+}
+
+.button-nav:focus {
+    outline: 0;
 }
