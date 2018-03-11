@@ -1,9 +1,10 @@
 html {
-    background-color: #E5FFFD;
+    background-color: #edf4f4;
 }
 
+/* Top Nav and Name */
 .name {
-    font-family: Asul, sans-serif;
+    font-family: Nanum Gothic, sans-serif;
     padding-left: 23px;
     margin: auto;
     display: inline-block;
@@ -37,4 +38,77 @@ html {
 
 .button-nav:focus {
     outline: 0;
+}
+
+/* First container block */
+
+.project-container {
+    display: block;
+    position: relative;
+    top: 130px;
+    max-width: 935px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+
+.image {
+    max-width: 700px;
+    display: block;
+    position: absolute;
+    left: 35%;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+.text {
+    display: block;
+    position: absolute;
+    margin-top: 10%;
+    width: 45%;
+}
+
+.project-title {
+    font-family: Catamaran;
+    line-height: 1em;
+    color: #0C3330;
+    margin: 30px 0 30px 0;
+
+}
+
+.feature-title {
+    font-family: Josefin Sans;
+    color: #05baae;
+    text-transform: uppercase;
+}
+
+a.button {
+    font-family: Josefin Sans;
+    padding: 13px 30px 10px 30px;
+    background: transparent;
+    outline: 5px solid #05baae;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #05baae;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.button:hover {
+    padding: 15px 35px;
+    font-size: 17px;
+}
+
+.project-container-2 {
+    display: block;
+    position: relative;
+    top: 650px;
+    max-width: 935px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
 }
