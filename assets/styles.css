@@ -2,6 +2,7 @@ html {
     background-color: #edf4f4;
 }
 
+
 /* Top Nav and Name */
 .name {
     font-family: Nanum Gothic, sans-serif;
@@ -40,9 +41,35 @@ html {
     outline: 0;
 }
 
-/* First container block */
+.nav-menu {
+    font-family: Nanum Gothic, sans-serif;
+    white-space: nowrap;
+    color: #0C3330;
+}
 
-.project-container {
+ul.nav-menu {
+    color: #0C3330;
+    list-style: none;
+    width: 276px;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+a.nav-menu {
+    text-decoration: none;
+}
+
+a.nav-menu:hover {
+    outline: 3px solid #05baae;
+    padding: 3px 10px;
+    color: #05baae;
+}
+
+/* Body Container */
+
+
+#body {
     display: block;
     position: relative;
     top: 130px;
@@ -50,6 +77,13 @@ html {
     margin-left: auto;
     margin-right: auto;
     padding: 0 20px;
+}
+
+/* First container block */
+
+.project-container {
+    display: block;
+    position: relative;
 }
 
 .image {
@@ -106,9 +140,48 @@ a.button:hover {
 .project-container-2 {
     display: block;
     position: relative;
-    top: 650px;
-    max-width: 935px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 20px;
+    top: 525px;
+}
+
+/* Paragraph splitting up the page */
+
+.paragraph {
+    display: block;
+    position: relative;
+    top: 1048px;
+    color: #05baae;
+    font-family: Josefin Sans;
+}
+
+/* Blog container */
+
+.blog {
+    display: block;
+    position: relative;
+    top: 1146px;
+}
+
+/* Footer container */
+
+#footer {
+    background-color: #037F77;
+    left: -10px;
+    right: -10px;
+    top: 1851px;
+    height: 100px;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+
+#icons {
+    margin: 12px;
+}
+
+a {
+    padding: 10px;
+}
+
+p {
+    margin: 0;
 }

@@ -5,43 +5,83 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Portfolio Personal Website</title>
         <link href="assets/styles.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Catamaran:800|Josefin+Sans|Nanum+Gothic" rel="stylesheet">
     </head>
 
-<header>
-    <div class="name">
-        <h1>Marissa McDonnell</h1>
-    </div>
-    <div class="menu">
-        <input class="button-nav" type="submit" value="">
-    </div>
-</header>
-
 <body>
     <!-- Featured project container -->
-    <div class="project-container">
-        <div class="image">
-            <img src="images/SquishFruitscreen2.png" alt="project 1">
+    <div id="wrapper">
+
+        <div id="header">
+            <div class="name">
+                <h1>Marissa McDonnell</h1>
+            </div>
+            <div class="menu">
+                <div class="nav-menu">
+                    <ul class="nav-menu">
+                        <a href="index.html" class="nav-menu">Home</a>
+                        <a href="index.html" class="nav-menu">Projects</a>
+                        <a href="index.html" class="nav-menu">Blog</a>
+                        <a href="index.html" class="nav-menu">Contact</a>
+                    </ul>
+                </div>
+                <!-- <input class="button-nav" type="submit" value=""> -->
+            </div>
         </div>
-        <div class="text">
-            <h5 class="feature-title">Featured Project</h5>
-            <h1 class="project-title">Squish Fruits converted to React</h1>
-            <a class="button">View Project</a>
+
+    <div id="body">
+        <div class="project-container">
+            <div class="image">
+                <img src="images/SquishFruitscreen2.png" alt="project 1">
+            </div>
+            <div class="text">
+                <h5 class="feature-title">Featured Project</h5>
+                <h1 class="project-title">Squish Fruits converted to React</h1>
+                <a class="button">View Project</a>
+            </div>
         </div>
-    </div>
-    <!-- Next Project -->
-    <div class="project-container-2">
-        <div class="image">
-            <img src="images/SquishFruitscreen2.png" alt="project 1">
+        <!-- Next Project -->
+        <div class="project-container-2">
+            <div class="image">
+                <img src="images/SquishFruitscreen2.png" alt="project 1">
+            </div>
+            <div class="text">
+                <h5 class="feature-title">Second Project</h5>
+                <h1 class="project-title">Squish Fruits</h1>
+                <a href="https://github.com/marissamcdonnell/Final-Fruit-Project"
+                target="_blank" class="button">View Project</a>
+            </div>
         </div>
-        <div class="text">
-            <h5 class="feature-title">Second Project</h5>
-            <h1 class="project-title">Squish Fruits</h1>
-            <a href="https://github.com/marissamcdonnell/Final-Fruit-Project"
-            target="_blank" class="button">View Project</a>
+
+        <div class="paragraph">
+            <h2>I should write some interesting stuff here but I don't know what to say.</h2>
+        </div>
+
+        <div class="blog">
+            <div class="image">
+                <img src="images/SquishFruitscreen2.png" alt="project 1">
+            </div>
+            <div class="text">
+                <h5 class="feature-title">Blog</h5>
+                <h1 class="project-title">My Journey</h1>
+                <!-- <a href="https://github.com/marissamcdonnell/Final-Fruit-Project"
+                target="_blank" class="button">View Project</a> -->
+            </div>
         </div>
     </div>
 
+    <div id="footer">
+        <div id="icons">
+            <a href="https://github.com/marissamcdonnell/" target="_blank">
+                <i class="fa fa-github icons"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/marissamcdonnell/" target="_blank">
+                <i class="fa fa-linkedin icons" style="font-size:33px;color:white;"></i>
+            </a>
+        </div>
+        <p>marissa.evergreen@gmail.com</p>
+    </div>
+
+</div>
 </body>
-<footer>
-</footer>
