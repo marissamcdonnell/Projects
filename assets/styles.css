@@ -1,3 +1,16 @@
+/* Style sheet for everything. Next time I will use scss.
+
+Index:
+
+Container blocks: 102
+Footer: 185
+Project Page: 226
+
+
+*/
+
+
+
 html {
     background-color: #edf4f4;
 }
@@ -7,18 +20,14 @@ html {
 .name {
     font-family: Nanum Gothic, sans-serif;
     padding-left: 23px;
-    margin: auto;
-    display: inline-block;
     color: #0C3330;
-    position: absolute;
     white-space: nowrap;
 }
 
-.menu {
-    right: 0;
-    display: inline-block;
-    margin: auto;
-    position: absolute;
+#header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
 }
 
 .button-nav {
@@ -66,13 +75,20 @@ a.nav-menu:hover {
     color: #05baae;
 }
 
+a.live-nav-menu{
+    outline: 3px solid #05baae;
+    vertical-align: middle;
+    color: #05baae;
+    text-decoration: none;
+}
+
 /* Body Container */
 
 
 #body {
     display: block;
     position: relative;
-    top: 130px;
+    top: 46px;
     max-width: 935px;
     margin-left: auto;
     margin-right: auto;
@@ -130,6 +146,7 @@ a.button {
     font-weight: bold;
     text-decoration: none;
     display: inline-block;
+    order: 3;
 }
 
 a.button:hover {
@@ -201,4 +218,67 @@ p {
 
 .fa-linkedin:hover {
     color: #05baae;
+}
+
+/* Projects page */
+
+.project-header {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    position: relative;
+    max-width: 935px;
+    top: 130px;
+    padding: 15px 0;
+    outline: 5px solid #05baae;
+}
+
+.project-header-text {
+    font-family: Catamaran;
+    line-height: 1em;
+    color: #05baae;
+    margin: auto;
+    font-size: 4em;
+}
+
+.display-project {
+    margin: auto;
+    position: relative;
+    top: 193px;
+    max-width: 935px;
+    justify-content: space-around;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.project-1 {
+    padding: 21px;
+    display: flex;
+    width: 200px;
+    margin: 0 23px 48px 23px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+img.display-image {
+    height: auto;
+    width: 186px;
+    order: 1;
+}
+
+.display-paragraph {
+    padding: 29px 18px 35px 18px;
+    order: 2;
+    line-height: 1.4em;
+    font-family: Nanum Gothic, sans-serif;
+    color: #0C3330;
 }
