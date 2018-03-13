@@ -50,7 +50,7 @@ html {
 ul.nav-menu {
     color: #0C3330;
     list-style: none;
-    width: 276px;
+    width: 306px;
     display: inline-flex;
     justify-content: space-between;
     margin-right: 20px;
@@ -62,7 +62,7 @@ a.nav-menu {
 
 a.nav-menu:hover {
     outline: 3px solid #05baae;
-    padding: 3px 10px;
+    vertical-align: middle;
     color: #05baae;
 }
 
@@ -135,6 +135,7 @@ a.button {
 a.button:hover {
     padding: 15px 35px;
     font-size: 17px;
+    cursor: pointer;
 }
 
 .project-container-2 {
@@ -168,14 +169,14 @@ a.button:hover {
     left: -10px;
     right: -10px;
     top: 1851px;
-    height: 100px;
+    height: 150px;
     color: white;
     position: absolute;
     text-align: center;
 }
 
 #icons {
-    margin: 12px;
+    margin: 34px 0 25px 0;
 }
 
 a {
@@ -184,4 +185,20 @@ a {
 
 p {
     margin: 0;
+}
+
+.fa-github {
+    color: white;
+}
+
+.fa-github:hover {
+    color: #05baae;
+}
+
+.fa-linkedin {
+    color: white;
+}
+
+.fa-linkedin:hover {
+    color: #05baae;
 }
