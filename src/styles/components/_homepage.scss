@@ -1,0 +1,28 @@
+@import '../base/vars';
+
+.home {
+    display: flex;
+    flex-direction: column;
+}
+
+.block {
+    margin: 1em 0;
+    padding: 2em;
+    background-color: $tran-green;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.block2 {
+    text-align: center;
+    margin: 1em 0;
+    padding: 2em;
+
+    h2 {
+        margin-top: 0;
+    }
+
+    .icons {
+        color: $green;
+        font-size: 3em;
+    }
+}
