@@ -3,15 +3,17 @@ import { DiJavascript1, DiReact, DiWordpress, DiGit, DiPhp, DiHtml5, DiCss3, DiS
 import { Tooltip } from 'react-tippy'
 
 import ProjectBlock from '../components/HomeProjectBlock'
+import featured from '../images/SquishFruitscreen.png'
+import projectImg1 from '../images/githubPortfolio.png'
 
 const HomePage = () => (
     <div className="home footer-bottom">
-        <ProjectBlock featureName="Featured Project" projectImg="./images/SquishFruitscreen.png" projectName="Squish Fruits" />
+        <ProjectBlock featureName="Featured Project" projectImg={featured} projectName="Squish Fruits" />
         <div className="block">
             <h2>What I bring to the table</h2>
             <p>I currently work at FanSided, which is where my passion for web development began. One aspect of this career path that I truly enjoy is problem solving. There are always multiple ways to solve problems but to take the time to explore and learn multiple ways, builds a solid foundation for solving more problems.</p>
         </div>
-        <ProjectBlock featureName="Blog" projectImg="./images/githubPortfolio.png" projectName="How I Started My Journey" />
+        <ProjectBlock featureName="Blog" projectImg={projectImg1} projectName="How I Started My Journey" />
         <div className="block2">
             <h2>Languages in a nutshell</h2>
             <div className="icons">
