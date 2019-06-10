@@ -1,20 +1,23 @@
 {
     "projects": [
-        {
+        {   
+            "id": "squish",
             "title": "A fun game squishing fruits",
             "img": "./images/SquishFruitscreen.png",
             "description": "Lorem ipsum dolor amet single-origin coffee chillwave vaporware, paleo hot chicken twee YOLO. Succulents actually taxidermy, letterpress kombucha ennui humblebrag paleo butcher. Kogi yr tilde fanny pack. Tofu gentrify venmo, direct trade hashtag cliche yr plaid chicharrones portland.",
             "repo": "https://github.com/marissamcdonnell/Squish-Fruits-React"
         },
         {
+            "id": "nba",
             "title": "Pick your top NBA players",
-            "img": "./images/nba50screen.png",
+            "img": "../images/nba50screen.png",
             "description": "Succulents actually taxidermy, letterpress kombucha ennui humblebrag paleo butcher. Kogi yr tilde fanny pack. Tofu gentrify venmo, direct trade hashtag cliche yr plaid chicharrones portland.",
             "repo": "https://github.com/marissamcdonnell/Squish-Fruits-React"
         },
         {
+            "id": "sports",
             "title": "Top Sports Films Ranker",
-            "img": "./images/sportsFilms.png",
+            "img": "../images/sportsFilms.png",
             "description": "Lorem ipsum dolor amet single-origin coffee chillwave vaporware, paleo hot chicken twee YOLO. Succulents actually taxidermy, letterpress kombucha ennui humblebrag paleo butcher. Kogi yr tilde fanny pack. Tofu gentrify venmo, direct trade hashtag cliche yr plaid chicharrones portland. Lorem ipsum dolor amet single-origin coffee chillwave vaporware, paleo hot chicken twee YOLO. Succulents actually taxidermy, letterpress kombucha ennui humblebrag paleo butcher. Kogi yr tilde fanny pack. Tofu gentrify venmo, direct trade hashtag cliche yr plaid chicharrones portland. Lorem ipsum dolor amet single-origin coffee chillwave vaporware, paleo hot chicken twee YOLO. Succulents actually taxidermy, letterpress kombucha ennui humblebrag paleo butcher. Kogi yr tilde fanny pack. Tofu gentrify venmo, direct trade hashtag cliche yr plaid chicharrones portland. Lorem ipsum dolor amet single-origin coffee chillwave vaporware, paleo hot chicken twee YOLO. Succulents actually taxidermy, letterpress kombucha ennui humblebrag paleo butcher. Kogi yr tilde fanny pack. Tofu gentrify venmo, direct trade hashtag cliche yr plaid chicharrones portland.",
             "repo": "https://github.com/marissamcdonnell/Squish-Fruits-React"
         }

@@ -6,7 +6,7 @@ const HomeProjectBlock = ({featureName, projectImg, projectName}) => (
         <div className="text">
             <h5>{featureName}</h5>
             <h2>{projectName}</h2>
-            <a className="button-lg">View Project</a>
+            {/* <a className="button-lg">View Project</a> */}
         </div>
         <div className="box filter">
             <img src={projectImg} alt="project 1" />

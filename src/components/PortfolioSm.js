@@ -1,21 +1,33 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const PortfolioSm = ({handleClick, img, title, repo}) => (
+import squish from '../images/SquishFruitscreen.png'
+import nba from '../images/nba50screen.png'
+import sports from '../images/sportsFilms.png'
+
+function PortfolioSm({ data }) {
+    const images = [
+        {id: 'squish', img: squish,},
+        {id: 'nba', img: nba,},
+        {id: 'sports', img: sports,},
+    ]
+
+    const handleImage = () => {
+        const image = images.filter(img => img.id === data.id)
+        return image[0].img
+    }
+
+    return (
     <div className="eachProject">
-        <button onClick={handleClick} type="button">
-            <img src={img} alt={title} />
-        </button>
-        <p>{title}</p>
-        <a className="button-lg" href={repo}>Go to Repo</a>
+        <img src={handleImage()} alt={data.title} />
+        <p>{data.title}</p>
+        <a className="button-lg" href={data.repo}>Go to Repo</a>
     </div>
 )
+    }
 
 PortfolioSm.propTypes = {
-    handleClick: PropTypes.func.isRequired,
-    img: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired,
-    repo: PropTypes.string.isRequired,
+    data: PropTypes.object.isRequired
 }
 
 export default PortfolioSm
