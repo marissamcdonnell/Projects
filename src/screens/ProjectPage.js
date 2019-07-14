@@ -23,17 +23,18 @@ function ProjectPage() {
     useEffect(() => {
         if(dataSet) {
             const image = images.filter(img => img.id === dataSet.id)
-            console.log(image)
             setImage(image[0].img)
             setTitle(dataSet.title)
+            anime()
         }
+        () => {}
     }, [dataSet])
 
     const anime = () => {
         console.log('anime')
         anime({
           targets: '.project-lg-container',
-        //   translateX: 500,
+          translateX: 500,
         });
       };
 
