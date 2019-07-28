@@ -1,19 +1,26 @@
 @import './vars';
 
 .button-lg {
+  border: solid 3px $green;
+  color: $green;
+  font-family: $font;
+  text-decoration: none;
+  padding: 0.6rem;
+  width: 10rem;
+  text-align: center;
+  align-self: center;
 
-
-    &:hover {
-        transform: scale(1.1);
-        cursor: pointer;
-    }
+  &:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
 }
 
 .footer-bottom {
-    padding-bottom: 4em;
+  padding-bottom: 4em;
 }
 
 .flex {
-    display:flex;
-    height: 44vh;
+  display: flex;
+  height: 44vh;
 }
