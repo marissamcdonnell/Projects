@@ -1,25 +1,32 @@
 {
-    "projects": [
-        {   
-            "id": "squish",
-            "title": "A fun game squishing fruits",
-            "img": "./images/SquishFruitscreen.png",
-            "description": "Lorem ipsum dolor amet single-origin coffee chillwave vaporware, paleo hot chicken twee YOLO. Succulents actually taxidermy, letterpress kombucha ennui humblebrag paleo butcher. Kogi yr tilde fanny pack. Tofu gentrify venmo, direct trade hashtag cliche yr plaid chicharrones portland.",
-            "repo": "https://github.com/marissamcdonnell/Squish-Fruits-React"
-        },
-        {
-            "id": "nba",
-            "title": "Pick your top NBA players",
-            "img": "../images/nba50screen.png",
-            "description": "Succulents actually taxidermy, letterpress kombucha ennui humblebrag paleo butcher. Kogi yr tilde fanny pack. Tofu gentrify venmo, direct trade hashtag cliche yr plaid chicharrones portland.",
-            "repo": "https://github.com/marissamcdonnell/Squish-Fruits-React"
-        },
-        {
-            "id": "sports",
-            "title": "Top Sports Films Ranker",
-            "img": "../images/sportsFilms.png",
-            "description": "Lorem ipsum dolor amet single-origin coffee chillwave vaporware, paleo hot chicken twee YOLO. Succulents actually taxidermy, letterpress kombucha ennui humblebrag paleo butcher. Kogi yr tilde fanny pack. Tofu gentrify venmo, direct trade hashtag cliche yr plaid chicharrones portland. Lorem ipsum dolor amet single-origin coffee chillwave vaporware, paleo hot chicken twee YOLO. Succulents actually taxidermy, letterpress kombucha ennui humblebrag paleo butcher. Kogi yr tilde fanny pack. Tofu gentrify venmo, direct trade hashtag cliche yr plaid chicharrones portland. Lorem ipsum dolor amet single-origin coffee chillwave vaporware, paleo hot chicken twee YOLO. Succulents actually taxidermy, letterpress kombucha ennui humblebrag paleo butcher. Kogi yr tilde fanny pack. Tofu gentrify venmo, direct trade hashtag cliche yr plaid chicharrones portland. Lorem ipsum dolor amet single-origin coffee chillwave vaporware, paleo hot chicken twee YOLO. Succulents actually taxidermy, letterpress kombucha ennui humblebrag paleo butcher. Kogi yr tilde fanny pack. Tofu gentrify venmo, direct trade hashtag cliche yr plaid chicharrones portland.",
-            "repo": "https://github.com/marissamcdonnell/Squish-Fruits-React"
-        }
-    ]
+  "projects": [
+    {
+      "id": "squish",
+      "title": "A fun game squishing fruits",
+      "img": "./images/SquishFruitscreen.png",
+      "description": "My first endeavor into the world of programming. This fun simple game was inspired by a small project required at the end of a free online javascript class. It’s initial version was built in html, css, and jquery, which has since evolved with React and scss. Squish Fruits is my playground to implement new skills and to try out new packages.",
+      "repo": "https://github.com/marissamcdonnell/Squish-Fruits-React"
+    },
+    {
+      "id": "nba",
+      "title": "Pick your top NBA players",
+      "img": "../images/nba50screen.png",
+      "description": "This React project lives on FanSided where I contribute to many react projects. The initial version of this small game was a team effort with Brad Westfall at the lead of the project. I strengthened and learned many new skills working on this game.",
+      "link": "https://fansided.com/nba/nba-top-50/"
+    },
+    {
+      "id": "sports",
+      "title": "Top Sports Films Ranker",
+      "img": "../images/sportsFilms.png",
+      "description": "After working on NBA top 50, a similar template was created for Top 20 sports movies. I took some of the components from NBA top 50 and made them reusable in this version of the ranker game. I also restructured the way the calculations were completed to make it more versatile for different data sets.",
+      "link": "https://fansided.com/entertainment/sports-movies-top-20"
+    },
+    {
+      "id": "wic",
+      "title": "Build Your Own Small Council",
+      "img": "../images/wic.png",
+      "description": "Another iteration of the ranker game based off of the NBA top 50. The calculations for this ranker were more complicated than the other two, having 5 different positions and wanting the top character without a repeat for those positions. The prior work with top 20 sports movies made many of the other aspects easy to complete the project more quickly.",
+      "link": "https://winteriscoming.net/media/build-your-own-small-council/"
+    }
+  ]
 }
